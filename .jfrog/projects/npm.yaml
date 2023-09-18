@@ -1,0 +1,8 @@
+version: 1
+type: npm
+resolver:
+  repo: tomj-curation-npm
+  serverId: soleng.jfrog.io
+deployer:
+  repo: tomj-curation-npm
+  serverId: soleng.jfrog.io
