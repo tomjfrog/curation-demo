@@ -22,11 +22,11 @@ jf c add
 ```bash
 jf npmc
 > Resolve dependencies from Artifactory? (y/n) [y]? y
-> Set Artifactory server ID [soleng.jfrog.io]: 
-> Set repository for dependencies resolution (press Tab for options): carm-npmjs-remote
+> Set Artifactory server ID <some-artifactory-instance>: 
+> Set repository for dependencies resolution (press Tab for options): <a curated NPM remote proxy repository>
 > Deploy project artifacts to Artifactory? (y/n) [y]? y
-> Set Artifactory server ID [soleng.jfrog.io]: 
-> Set repository for artifacts deployment (press Tab for options): carm-npm-dev-local
+> Set Artifactory server ID <some-artifactory-instance>: 
+> Set repository for artifacts deployment (press Tab for options): <some local or virtual NPM Repo in Target JPD>
 > 12:42:28 [🔵Info] npm build config successfully created.
 ```
 3. Ensure `node_modules` and `package-lock.json` are removed to ensure a fresh install:
